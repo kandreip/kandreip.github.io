@@ -1,0 +1,285 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Octa</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <!--Header-->
+    <header class="l_header" id="header">
+      <nav class="nav bd_grid">
+        <div class="nav_toggle" id="nav-toogle">
+          <i class="bx bx-user"></i>
+        </div>
+        <img src="/images/logo.png"class="nav_logo" alt="">
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active" id="link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#featured" class="nav_link" id="link">Featured</a>
+            </li>
+            <li class="nav_item">
+              <a href="#sale" class="nav_link" id="link">Sale</a>
+            </li>
+            <li class="nav_item">
+              <a href="#new" class="nav_link" id="link">New</a>
+            </li>
+            <li class="nav_item shop_nav">
+              <a href="#shop" class="nav_link" id="link" >Shop</a>
+            </li>
+            <li class="nav_item">
+              <div class="icon_shopping nav_link"> 
+                <p>0</p>
+                <i class="bx bx-shopping-bag"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l_main">
+      <section class="home" id="home">
+        <div class="home_container bd_grid">
+          <div class="home_sneaker">
+            <!-- <div class="home_shape"></div> -->
+            <img src="images/NewBalance327.png" alt="" class="home_img" />
+          </div>
+          <div class="home_data">
+            <span class="home_new">New</span>
+            <h1 class="home_title">
+              New Balance<br />
+              327 Trainers
+            </h1>
+            <p class="home_description">
+              Discover the new collections</br>
+              from New Balance
+            </p>
+            <a href="#shop" class="button">Discover now</a>
+          </div>
+        </div>
+      </section>
+      <!--Featured-->
+      <section class="featured section" id="featured">
+        <h2 class="section_title">Featured</h2>
+        <div class="featured_container bd_grid">
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+        </div>
+      </section>
+     
+      <!--Sale-->
+      <section class="sale section" id="sale">
+        <h2 class="section_title">Sale</h2>
+        <div class="sale_container bd_grid">
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+        </div>
+      </section>
+
+      <!--Offers-->
+      <section class="offer section">
+        <div class="offer_container bd_grid">
+          <div class="offer_data">
+            <h3 class="offer_title">50% OFF</h3>
+            <p class="offer_description">in Puma trainers</p>
+            <div class="container_timer">
+              <p id="timer">
+                <span>Offer ended in</span>
+                <span id="timer-hours"></span>
+                <span id="timer-mins"></span>
+                <span id="timer-secs"></span>
+              </p>
+            </div>
+            <a href="#shop" class="button">Shop Now</a>
+          </div>
+          <img src="images/offer.png" alt="" class="offer_img" />
+        </div>
+      </section>
+
+      <!--New Collection-->
+      <section class="new section" id="new">
+        <h2 class="section_title">NEW COLLECTION</h2>
+        <div class="new_container bd_grid">
+          <div class="new_collection">
+            <img src="images/pumacollection.png" alt="" class="new_collection_img" />
+            <h3 class="new_title">Puma Collection</h3>
+            <span class="new_price">From £69.99</span>
+            <a href="#shop" class="button">View Collection</a>
+          </div>
+          <div class="new_sneaker">
+            <div class="new_sneaker_card add_to_cart_btn data_insert">
+            </div>
+            <div class="new_sneaker_card add_to_cart_btn data_insert">
+            </div>
+            <div class="new_sneaker_card add_to_cart_btn data_insert">
+            </div>
+            <div class="new_sneaker_card add_to_cart_btn data_insert">
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--Collection-->
+       <section class="collection section"></section>
+       <div class="collection_container bd_grid">
+         <div class="collection_card">
+           <div class="collection_data">
+             <h3 class="collection_name">New Balance</h3>
+             <p class="collection_description">New collection 2021</p>
+             <a href="#shop" class="button_light"
+               >Buy now</a>
+           </div>
+           <img src="images/newbalance.png" alt="" class="collection_img" />
+         </div>
+         <div class="collection_card">
+           <div class="collection_data">
+             <h3 class="collection_name">Nike</h3>
+             <p class="collection_description">New collection 2021</p>
+             <a href="#shop" class="button_light"
+               >Buy now</a>
+           </div>
+           <img src="images/nike.png" alt="" class="collection_img" />
+         </div>
+       </div>
+     </section>
+
+      <!--Shop-->
+      <section class="shop section" id="shop">
+        <h2 class="section_title">Shop</h2>
+        <div class="shop_container bd_grid " id="1">
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+        </div>
+        <div class="shop_container bd_grid shop_container_hide" id="2">
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+        </div>
+        <div class="shop_container bd_grid shop_container_hide" id="3">
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+        </div>
+        <div class="shop_container bd_grid shop_container_hide" id="4">
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+          <article class="sneaker data_insert"></article>
+        </div>
+        <div class="sneaker_pages bd_grid">
+          <div>
+            <span class="sneaker_pag sneaker_pag_active">1</span>
+            <span class="sneaker_pag " >2</span>
+            <span class="sneaker_pag " >3</span>
+            <span class="sneaker_pag " >&#8594;</span>
+          </div>
+        </div>
+      </section>
+
+<!--Newsletter-->
+<section class="newsletter section">
+  <div class="newsletter_container bd_grid">
+    <div>
+      <h3 class="newsletter_title">
+        Subscribe And Get <br />
+        10% OFF
+      </h3>
+      <p class="newsletter_description">
+        Get 10% discount for all products
+      </p>
+    </div>
+    <form action="" class="newsletter_subscribe">
+      <input
+        type="text"
+        placeholder="@gmail.com"
+        class="newsletter_input"/>
+      <a href="#" class="button">Subscribe</a>
+    </form>
+  </div>
+  <div class="cart_box">         
+    <div class="cart_main">
+      <div>
+        <i class='bx bx-x'></i>
+      </div>
+      <div class="cart_container">
+        <div class="cart_title cart_grid">
+          <span>Product</span>
+          <span>Name</span>
+          <span>Price</span>
+          <span>Qty</span>
+          <span>Action</span>
+        </div>
+        <div class="cart_content"></div>
+        <div class="cart_total">Total: £99.99</div>
+        <div>
+          <button class="cart_btn_purchase">Purchase</button>
+        </div>
+      </div>
+    </div>   
+ </div>
+</section>
+
+      <!--Footer-->
+      <footer class="footer section">
+        <div class="footer_container bd_grid">
+          <div class="footer_box">
+            <h3 class="footer_title">Octa</h3>
+            <p class="footer_description">New collection of shoes 2021</p>
+          </div>
+          <div class="footer_box">
+            <h3 class="footer_title">HELP & INFO</h3>
+            <ul>
+              <li><a href="#" class="footer_link">Contact Us</a></li>
+              <li><a href="#" class="footer_link">Delivery & Returns</a></li>
+              <li><a href="#" class="footer_link">Find a Store</a></li>
+              <li><a href="#" class="footer_link">Stundent Discount</a></li>
+            </ul>
+          </div>
+          <div class="footer_box">
+            <h3 class="footer_title">ABOUT OCTA</h3>
+            <ul>
+              <li><a href="#" class="footer_link">About Us</a></li>
+              <li><a href="#" class="footer_link">Join Us!</a></li>
+              <li><a href="#" class="footer_link">Shoes Diaries</a></li>
+              <li><a href="#" class="footer_link">Gender Pay Gap Report</a></li>
+              <li><a href="#" class="footer_link">Modern Slavery Act Statement</a></li>
+            </ul>
+          </div>
+          <div class="footer_box">
+            <a href="" class="footer_social"><i class="bx bxl-facebook"></i></a>
+            <a href="" class="footer_social"><i class="bx bxl-instagram"></i></a>
+            <a href="" class="footer_social"><i class="bx bxl-twitter"></i></a>
+            <a href="" class="footer_social"><i class="bx bxl-google"></i></a>
+          </div>
+        </div>
+        <p class="footer_copy">&#169; 2021 AndreiCozma. For learning purposes.</p>
+      </footer>
+    </main>
+    <!--Main JS-->
+    <script type="text/javascript" src="products.json"></script>
+    <script src="main.js"> </script>
+  </body>
+</html>

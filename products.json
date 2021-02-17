@@ -1,0 +1,166 @@
+
+    var products= `[
+    {
+      "id": 1,
+      "Name": "New Balance Ml527",
+      "Price": 59.99,
+      "Image": "/images/NewBalanceMl527.png"
+    },
+    {
+      "id": 2,
+      "Name": "New Balance 327",
+      "Price": 69.99,
+      "Image": "/images/NewBalance327.png"
+    },
+    {
+      "id": 3,
+      "Name": "New Balance Ul720",
+      "Price": 69.99,
+      "Image": "/images/NewBalanceUl720.png"
+    },
+    {
+      "id": 4,
+      "Name": "Puma Amazon Green",
+      "Price": 49.99,
+      "Image": "/images/PumaAmazonGreen.png"
+    },
+    {
+      "id": 5,
+      "Name": "Nike Air Max 270",
+      "Price": 120.0,
+      "Image": "/images/NikeAirMax270Trainers.png"
+    },
+    {
+      "id": 6,
+      "Name": "Puma Black Quarry",
+      "Price": 49.99,
+      "Image": "/images/PumaBlackQuarry.png"
+    },
+    {
+      "id": 7,
+      "Name": "Nike Air Zoom Type",
+      "Price": 114.99,
+      "Image": "/images/NikeAirZoomTypeTrainers.png"
+    },
+    {
+      "id": 8,
+      "Name": "Puma Black Quarry",
+      "Price": 49.99,
+      "Image": "/images/PumaBlackQuarry.png"
+    },
+    {
+      "id": 9,
+      "Name": "Puma American Red",
+      "Price": 49.99,
+      "Image": "/images/PumaAmericanBeauty.png"
+    },
+    {
+      "id": 10,
+      "Name": "Puma Cruise Ride",
+      "Price": 39.99,
+      "Image": "/images/PumaCruiseRider.png"
+    },
+    {
+      "id": 11,
+      "Name": "Puma Amazon Green",
+      "Price": 49.99,
+      "Image": "/images/PumaAmazonGreen.png"
+    },
+    {
+      "id": 12,
+      "Name": "New Balance Ml527",
+      "Price": 59.99,
+      "Image": "/images/NewBalanceMl527.png"
+    },
+    {
+      "id": 13,
+      "Name": "New Balance 327",
+      "Price": 69.99,
+      "Image": "/images/NewBalance327.png"
+    },
+    {
+      "id": 14,
+      "Name": "New Balance Ul720",
+      "Price": 69.99,
+      "Image": "/images/NewBalanceUl720.png"
+    },
+    {
+      "id": 15,
+      "Name": "New Balance 327",
+      "Price": 49.99,
+      "Image": "/images/NewBalance327Trainers.png"
+    },
+    {
+      "id": 16,
+      "Name": "Puma Amazon Green",
+      "Price": 49.99,
+      "Image": "/images/PumaAmazonGreen.png"
+    },
+    {
+      "id": 17,
+      "Name": "Puma American Red",
+      "Price": 49.99,
+      "Image": "/images/PumaAmericanBeauty.png"
+    },
+    {
+      "id": 18,
+      "Name": "Puma Black Quarry",
+      "Price": 49.99,
+      "Image": "/images/PumaBlackQuarry.png"
+    },
+    {
+      "id": 19,
+      "Name": "Puma Cruise Ride",
+      "Price": 39.99,
+      "Image": "/images/PumaCruiseRider.png"
+    },
+    {
+      "id": 20,
+      "Name": "Nike Air Max 970",
+      "Price": 89.99,
+      "Image": "/images/NikeAirMax97Trainers.png"
+    },
+    {
+      "id": 21,
+      "Name": "Nike Air Max 270",
+      "Price": 120.0,
+      "Image": "/images/NikeAirMax270Trainers.png"
+    },
+    {
+      "id": 22,
+      "Name": "Nike Air Zoom Type",
+      "Price": 114.99,
+      "Image": "/images/NikeAirZoomTypeTrainers.png"
+    },
+    {
+      "id": 23,
+      "Name": "Nike Daybreak Type",
+      "Price": 89.99,
+      "Image": "/images/NikeDaybreakTypeTrainers.png"
+    },
+    {
+      "id": 24,
+      "Name": "Dr Martens Bex 8 Eye",
+      "Price": 139.99,
+      "Image": "/images/DrMartensBex8Eye.png"
+    },
+    {
+      "id": 25,
+      "Name": "Dr Martens 1460 Iridescent",
+      "Price": 169.99,
+      "Image": "/images/DrMartens1460Iridescent.png"
+    },
+    {
+      "id": 26,
+      "Name": "Dr Martens 8 Eyelet Lac",
+      "Price": 129.99,
+      "Image": "/images/DrMartens8EyeletLac.png"
+    },
+    {
+      "id": 27,
+      "Name": "Dr Martens Sinclair Zip",
+      "Price": 149.99,
+      "Image": "/images/DrMartensSinclairZip.png"
+    }
+  ]
+`
