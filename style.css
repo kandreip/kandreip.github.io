@@ -544,6 +544,9 @@ img {
   .home_img {
     height: 140px;
   }
+  .sneaker_img {
+    height: 176px;
+  }
 
   .bd_grid {
     margin-left: 0.5rem;
