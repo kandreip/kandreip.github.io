@@ -145,19 +145,6 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .nav_menu {
-    position: fixed;
-    top: var(--header-height);
-    left: -100%;
-    width: 70%;
-    height: 100vh;
-    padding: 2rem;
-    background-color: var(--white-color-dark);
-    transition: 0.5s;
-  }
-}
-
 .nav_item {
   margin-bottom: var(--mb-4);
 }
@@ -172,11 +159,6 @@ img {
 .nav_shop {
   font-size: 1.3rem;
   cursor: pointer;
-}
-
-/*===Show menu===*/
-.show {
-  left: 0;
 }
 
 /*===Active link===*/
@@ -219,8 +201,8 @@ img {
 
 .home_img {
   top: 1.5rem;
-  /* max-width: initial;
-  width: 275px; */
+  max-width: initial;
+  width: 275px;
   transform: var(--rotate-img);
 }
 
@@ -461,9 +443,9 @@ img {
   justify-content: center;
 }
 
-/* .new_sneaker_img {
+.new_sneaker_img {
   width: auto;
-} */
+}
 
 .new_sneaker_overlay {
   position: absolute;
@@ -555,7 +537,59 @@ img {
 }
 
 /*===Media Queries ===*/
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 80%;
+  }
+  .nav_menu {
+    position: fixed;
+    top: var(--header-height);
+    left: -100%;
+    width: 70%;
+    height: 100vh;
+    padding: 2rem;
+    background-color: var(--white-color-dark);
+    transition: 0.5s;
+  }
+  .home_img {
+    width: 90%;
+    top: 3.5rem;
+    right: 0;
+    left: -3rem;
+  }
+
+  .cart_main {
+    width: 90%;
+  }
+
+  .collection_img {
+    width: 260px;
+    max-height: 310px;
+  }
+
+  .offer_container {
+    grid-template-columns: max-content max-content;
+  }
+
+  .offer_data {
+    text-align: center;
+  }
+
+  .new_collection {
+    align-items: center;
+  }
+
+  .bd_grid {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+/*===Show menu===*/
+.show {
+  left: 0;
+}
+/* 
+@media screen and (min-width: 600px) {
   .home_img {
     width: 90%;
     top: 3.5rem;
@@ -587,7 +621,11 @@ img {
   .new_collection {
     align-items: center;
   }
-}
+  .bd_grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
 
 @media screen and (min-width: 768px) {
   body {
