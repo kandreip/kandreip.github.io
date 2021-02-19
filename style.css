@@ -538,13 +538,16 @@ img {
 
 /*===Media Queries ===*/
 @media screen and (max-width: 600px) {
-  /* .nav {
-    width: calc(100%-2rem);
-  } */
+  .home_container {
+    height: 600px;
+  }
+  .home_img {
+    height: 140px;
+  }
 
   .bd_grid {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .nav_menu {
