@@ -551,12 +551,23 @@ img {
     background-color: var(--white-color-dark);
     transition: 0.5s;
   }
-  .home_img {
+  /* .home_img {
     width: 90%;
     top: 3.5rem;
     right: 0;
     left: -3rem;
+  } 
+
+  .home_container {
+     height: 100vh; 
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-items: center;
   }
+
+   .home_sneaker {
+    order: 1;
+  }  */
 
   .cart_main {
     width: 90%;
@@ -674,11 +685,6 @@ img {
 
   .home_sneaker {
     order: 1;
-  }
-
-  .home_shape {
-    width: 376px;
-    height: 376px;
   }
 
   .home_img {
