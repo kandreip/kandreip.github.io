@@ -538,9 +538,6 @@ img {
 
 /*===Media Queries ===*/
 @media screen and (max-width: 600px) {
-  .nav {
-    width: 80%;
-  }
   .nav_menu {
     position: fixed;
     top: var(--header-height);
@@ -551,23 +548,6 @@ img {
     background-color: var(--white-color-dark);
     transition: 0.5s;
   }
-  /* .home_img {
-    width: 90%;
-    top: 3.5rem;
-    right: 0;
-    left: -3rem;
-  } 
-
-  .home_container {
-     height: 100vh; 
-    grid-template-columns: max-content max-content;
-    justify-content: center;
-    align-items: center;
-  }
-
-   .home_sneaker {
-    order: 1;
-  }  */
 
   .cart_main {
     width: 90%;
@@ -589,17 +569,12 @@ img {
   .new_collection {
     align-items: center;
   }
-
-  .bd_grid {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 }
 /*===Show menu===*/
 .show {
   left: 0;
 }
-/* 
+
 @media screen and (min-width: 600px) {
   .home_img {
     width: 90%;
@@ -636,7 +611,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-} */
+}
 
 @media screen and (min-width: 768px) {
   body {
