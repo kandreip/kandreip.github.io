@@ -219,8 +219,8 @@ img {
 
 .home_img {
   top: 1.5rem;
-  max-width: initial;
-  width: 275px;
+  /* max-width: initial;
+  width: 275px; */
   transform: var(--rotate-img);
 }
 
@@ -461,9 +461,9 @@ img {
   justify-content: center;
 }
 
-.new_sneaker_img {
+/* .new_sneaker_img {
   width: auto;
-}
+} */
 
 .new_sneaker_overlay {
   position: absolute;
